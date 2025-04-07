@@ -20,6 +20,6 @@
 - **Framework**: [React](https://reactjs.org/)
 - **Routing**: React Router DOM
 - **State Management**: React Context API
-- **Styling**: Tailwind CSS / Styled Components
+- **Styling**: Tailwind CSS 
 
 ---
