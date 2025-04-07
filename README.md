@@ -1,12 +1,25 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛒 GreenCart - Grocery Delivery E-Commerce (Frontend)
+ 
+ **GreenCart** is a modern and responsive frontend-only grocery delivery web application built using **React**. It provides users with a smooth and user-friendly experience to browse groceries, manage their cart, and get ready for checkout.
+ 
+ ---
+ 
+ ## ⚙️ Features
+ 
+ - 🥦 Browse grocery products by category
+ - 🔍 Search bar for quick product discovery
+ - 🛒 Add, remove, and update items in the cart
+ - 💰 Real-time price calculation in the cart
+ - 📱 Fully responsive design
+ - ⚛️ Built using React functional components and hooks
+ 
+ ---
+ 
+ ## 🧱 Tech Stack
+ 
+ - **Framework**: [React](https://reactjs.org/)
+ - **Routing**: React Router DOM
+ - **State Management**: React Context API
+ - **Styling**: Tailwind CSS 
+ 
+ ---
