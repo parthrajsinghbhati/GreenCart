@@ -12,6 +12,7 @@ const Cart = () => {
     getCartCount,
     getCartAmount,
     updateCartItems,
+    placeOrder,
   } = useAppContext();
   const [cartArray, setCartArray] = useState([]);
   const [addresses, setAddresses] = useState(dummyAddress);
@@ -28,8 +29,6 @@ const Cart = () => {
     }
     setCartArray(tempArray);
   };
-
-  const placeOrder = async () => {};
 
   useEffect(() => {
     if (products.length > 0 && cartItems) {

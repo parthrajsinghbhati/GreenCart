@@ -75,6 +75,11 @@ export const AppContextProvider = ({ children }) => {
     return Math.floor(totalPrice * 100) / 100;
   };
 
+  const placeOrder = () => {
+    setCartItems({});
+    toast.success("Order placed successfully");
+  };
+
   useEffect(() => {
     fetchProducts();
   }, []);
@@ -96,6 +101,7 @@ export const AppContextProvider = ({ children }) => {
     setSearchQuery,
     getCartCount,
     getCartAmount,
+    placeOrder,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
